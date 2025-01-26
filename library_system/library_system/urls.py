@@ -17,6 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from .views import BookListView, CheckoutView # type: ignore
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('api/books/', BookListView.as_view(), name='book-list'),
+    path('api/checkout/', CheckoutView.as_view(), name='checkout'),
 ]
+
