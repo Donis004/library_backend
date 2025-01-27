@@ -1,23 +1,22 @@
-# Library System - Frontend
+# Library System - Backend
 
-This is the frontend for the library system, developed with React.js. It allows users to log in, access dashboards, search books, and more.
+This is the backend for the library system, developed using Python and Django. It handles user authentication, API routes for managing books, users, and other functionalities.
 
 ## Prerequisites
 
-Before setting up the development environment, make sure you have the following tools installed:
+Before setting up the backend environment, make sure you have the following tools installed:
 
-- **Node.js**: A JavaScript runtime (https://nodejs.org/)
-- **npm**: Node Package Manager (automatically installed with Node.js)
-- **React.js**: JavaScript library for building user interfaces (already included in the project)
+- **Python**: A high-level programming language (https://www.python.org/)
+- **pip**: Python package installer (automatically installed with Python)
+- **Django**: Web framework for Python (already included in the project)
+- **MySQL**: Database management system (https://www.mysql.com/)
+- **Postman** or **cURL**: For testing API endpoints (optional, but recommended)
 
 ## Setting Up the Project
 
-##Run the Project in Development
--use the command **npm start*
-
 ### 1. Clone the repository
 
-First, clone the repository to your local machine using Git:
+Clone the backend repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/your-username/library-frontend.git
+git clone https://github.com/your-username/library-backend.git
